@@ -1,6 +1,9 @@
 {
-"extends": "airbnb",
- "settings": {
-    "import/core-modules": [ "meteor/meteor" ]
+  "extends": "airbnb",
+  "rules": {
+      "no-console": "off"
+  },
+  "settings": {
+    "import/core-modules": [ "meteor/meteor" ],
   }
 }
