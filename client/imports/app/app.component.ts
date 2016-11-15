@@ -1,9 +1,16 @@
+/**
+ * Created by manu on 14/11/16.
+ */
+
 import {Component} from "@angular/core";
-import {template} from "./app.component.html";
+//noinspection TypeScriptCheckImport
+import template from "./app.component.html";
 
 @Component({
-  selector: 'app',
-  templateUrl: template
+    selector: 'app',
+    template
 })
 
-export class AppComponent {}
+export class AppComponent {
+
+}
